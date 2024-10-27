@@ -1,3 +1,20 @@
+# Objectives : 
+The Loan Price Calculator aims to determine a user's eligibility for a loan based on their requested amount and a predefined maximum eligible amount. It helps users understand their borrowing capacity and provides clarity on whether they qualify for the loan they seek.
+
+## Key Features:
+1. Determine Eligibility: Assess if the expected loan amount is within the eligible range.
+2. Provide Clear Feedback: Inform users whether they are eligible or not for the loan based on their input.
+3. Promote Financial Awareness: Educate users about their borrowing limits and responsible loan practices.
+4. User-Friendly Experience: Ensure ease of use through simple inputs and straightforward output messages.
+
+This calculator serves as a useful tool for individuals seeking loans, helping them make informed financial decisions.
+
+
+## Images of Loan Price Calculator
+<img src ="./Assets/Loan price Calculator.png">
+<img src ="./Assets/Approval.png">
+<img src ="./Assets/Not Eligible.png">
+
 
 ## Repository Structure
 
