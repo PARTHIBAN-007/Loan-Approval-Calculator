@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import warnings
+warnings.filterwarnings("ignore")
 
 # Load the model and other artifacts
 def load_model():
@@ -46,7 +48,7 @@ with col2:
     cb_person_default_on_file = st.selectbox("Default on File", options=["Y", "N"])
     cb_person_cred_hist_length = st.number_input("Credit History Length (in years)", min_value=0, value=2)
 
-loan_amount = st.number_input("EXpected Loan Amount")
+loan_amount = st.number_input("Expected Loan Amount")
 
 
 # Prepare the DataFrame
